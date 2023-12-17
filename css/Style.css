@@ -1,0 +1,504 @@
+.container-max-width {
+    margin: 0 auto; 
+    overflow: hidden; 
+}
+
+.navbar{
+    background-color:#6B3CC9;
+    width: 100%;
+    height: 77px;
+}
+
+.navbar .nav-item .nav-link{
+    font-family: inter;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.navbar .logo .mainLogo{
+    width: 100%;
+    height: 5%;
+}    
+
+.Hero{
+    position: relative;
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+}
+
+.Hero img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Hero .new{
+    position: absolute;
+    width: 45%;
+    height: 45%;
+    background: linear-gradient(to left, #1CBDDD,#4DCA79); 
+    transform: translate(-50%, -50%);
+    top: 70%;
+    left: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start ;
+}
+
+.Hero .text{
+    width: 90%;
+    height: 70%;
+    margin-top: 3%;
+    margin-left: 8%;
+    color: #fff;
+    letter-spacing: -2%;
+    line-height: 3rem;
+}
+
+.Hero .text p{
+    font-family: inter;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.Hero .new .btn{
+    width: 45%;
+    border-radius: 4px;
+    background-color: #F28D35;
+    margin-left: 8%;
+    
+}
+
+.Hero .new .btn label{
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 1rem;
+}
+
+.service{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4%;
+    padding-bottom: 4%;
+}
+
+.web{
+    position: relative;
+    height: 50%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.web .col .heading h1{
+    font-family: Poppins;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 2rem;
+    letter-spacing: 4%;
+    color: #6B3CC9;
+}
+
+.web .col .heading p{
+    font-family: inter;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin-top: 2%;
+}
+
+.web .col .btn{
+    position: relative;
+    width: 30%;
+    border-radius: 4px;
+    background-color: #F28D35;
+    border: none;
+}
+
+.web .col .btn label{
+    font-family: inter;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1rem;
+    letter-spacing: -2%;
+    color: #fff;
+}
+
+.dig{
+    position: relative;
+    height: 50%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.dig .col .heading h1{
+    font-family: Poppins;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 2rem;
+    letter-spacing:4%;
+    color: #6B3CC9;
+}
+
+.dig .col .heading p{
+    font-family: inter;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin-top: 2%;
+}
+
+.dig .col .btn{
+    position: relative;
+    width: 30%;
+    border-radius: 4px;
+    background-color: #F28D35;
+    border: none;
+}
+
+.dig .col .btn label{
+    font-family: inter;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1rem;
+    letter-spacing: -2%;
+    color: #fff;
+}
+
+.footer{
+    position:relative;
+    width: 100%;
+    height: 370px;
+    background-color: #6B3CC9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer .main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 90%;
+    height: 90%;
+    margin-top: 2%;
+}
+
+.footer .foot .row .col .logo{
+    width: 20%;
+    height: 5%;
+}
+
+
+.footer .text{
+    width: 60%;
+    height: 20%;
+    margin-top: 30px;
+}
+
+.footer .text p{
+    font-family: lato;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #fff;
+}
+
+
+.footer .ourTec h4{
+    font-family: inter;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    color: #fff;
+}
+
+.footer .ourTec .item{
+    height: 90%;
+    width: 100%;
+}
+
+.footer .ourTec .item p{
+    font-size: 1rem;
+    font-family: inter;
+    font-weight: 500;
+    line-height: 100%;
+    color: #fff;
+}
+
+
+.footer .end p{
+    font-family: inter;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 2rem;
+    color: #fff;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    display: none;
+    z-index: 1000;
+  }
+
+@media screen and (max-width : 1200px) {
+
+    .Hero .img{
+        max-width: 100%;
+        height: 700px;
+        top: 77px;
+    }
+    
+    .Hero .new{
+        width: 55%;
+        height: 45%;
+    }
+
+    .Hero .new .btn{
+        width: 50%;
+        border-radius: 4px;
+        margin-top: 10%;
+    }
+
+    .Hero .text{
+        width: 90%;
+        height: 50%;
+        letter-spacing: -2%;
+    }
+
+    .web{
+        height: 60%;
+        width: 90%;
+    }
+
+    .dig{
+        height: 60%;
+        width: 90%;
+    }
+
+    .col .btn{
+        width: 100%;
+    }
+
+    .col .heading p{
+        line-height: 1rem;
+    }
+
+    .web .col .btn label{
+        font-size: 0.5rem;
+        line-height: 0.5rem;
+    }
+
+    .dig .col .btn label{
+        font-size: 0.5rem;
+        line-height: 0.5rem;
+    }
+}
+
+@media screen and (max-width : 768px) {
+
+    .navbar .nav-item .nav-link{
+        font-family: inter;
+        font-size: 60%;
+        color: #fff;
+    }
+
+    .navbar .logo {
+        width: 30%;
+        height: 1%;
+    }
+
+    .Hero .img{
+        max-width: 100%;
+        height: 448px;
+        top: 77px;
+    }
+    
+    .Hero .new{
+        width:100%;
+        height: 400px;
+        background: linear-gradient(to left, #1CBDDD,#4DCA79); 
+        top: 90%;
+        left: 50%;
+    }
+
+    .Hero .new .btn{
+        width: 40%;
+        border-radius: 4px;
+        background-color: #F28D35;
+        margin-top: -0.1%;
+    }
+
+    .Hero .text{
+        width: 90%;
+        height: 50%;
+        color: #fff;
+        letter-spacing: 2%;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 600px;
+    }
+
+    .footer .col-6{
+        width: 100%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    .footer .col-3{
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width : 375px) {
+
+    .navbar .nav-item .nav-link{
+        font-family: inter;
+        font-size: 60%;
+        color: #fff;
+    }
+
+    .navbar .logo {
+        width: 70%;
+        height: 5%;
+    }
+
+    .navbar-toggler-icon span {
+        background-color: #fff;
+    }
+
+    .navbar-collapse {
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0.3s, opacity 0.3s ease-in-out;
+        z-index: 1001; 
+      }
+    
+      .navbar-collapse.visible {
+        visibility: visible;
+        opacity: 1;
+      }
+    
+      .overlay.visible {
+        display: block;
+      }
+
+    .Hero .img{
+        max-width: 100%;
+        height: 218px;
+        top: 77px;
+    }
+    
+    .Hero .new{
+        width:100%;
+        height: 400px;
+        background: linear-gradient(to left, #1CBDDD,#4DCA79); 
+        top: 59%;
+        left: 50%;
+    }
+
+    .Hero .text{
+        width: 100%;
+        height: 80%;
+    }
+
+    .Hero .text p{
+        font-size: 2.4rem;
+    }
+
+    .Hero .new .btn label{
+        font-size: 0.8rem;
+        line-height: 0.8rem;
+    }
+
+    .Hero .new .btn{
+        width: 80%;
+        border-radius: 4px;
+        background-color: #F28D35;
+        margin-top: 35%;
+    }
+
+    .Hero .text{
+        width: 90%;
+        height: 50%;
+        color: #fff;
+        letter-spacing: 2%;
+    }
+
+    .web{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .dig{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        
+    }
+
+    .footer{
+        width: 100%;
+        height: 715px;
+    }
+
+    .footer .main .foot .row {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .footer .row .col-3 .ourTec h4{
+        font-weight: 600;
+        font-size: 1.2rem;
+        line-height: 1.2rem;
+        width: 179px;
+    }
+
+    .footer .ourTec .item{
+        height: 80%;
+        width: 216px;
+    }
+
+    .footer .ourTec .item p{
+        font-size: 14px;
+        line-height: 100%;
+        width: 100%;
+        line-height: 14px;
+    }
+
+    .footer .end{
+        margin-top: 5%;
+    }
+
+    .footer .end p{ 
+        font-size: 0.8rem;
+        line-height: 0.8rem;
+        margin-top: -5%;
+    }
+}
